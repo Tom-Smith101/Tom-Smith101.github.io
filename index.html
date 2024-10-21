@@ -1,5 +1,7 @@
 <div id="text">
 i - You are a using a <div id="platform"></div>
+  <a href="market://launch?id=com.innovationllp.traxmiles">Google Play</a>
+    
 device
 </div>
 
@@ -14,7 +16,7 @@ device
     if (userAgent.includes('Android')) {
       platform = 'Android'
       // redirect link for Android. Add Play Store link below
-      window.location.href = 'http://play.google.com/store/apps/details?id=com.google.android.apps.maps'
+     // window.location.href = 'http://play.google.com/store/apps/details?id=com.google.android.apps.maps'
     } else if (userAgent.includes('iPhone') || userAgent.includes('iPad')) {
       platform = 'iOS'
       // Redirect link for iOS
